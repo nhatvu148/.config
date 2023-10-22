@@ -1,2 +1,2 @@
-require("nhatvu148.core")
-require("nhatvu148.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
