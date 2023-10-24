@@ -7,3 +7,5 @@ vim.keymap.set(
   require("telescope.builtin").resume,
   { noremap = true, silent = true, desc = "Resume" }
 )
+
+vim.keymap.set("v", "<leader>1f", vim.lsp.buf.format, bufopts)
